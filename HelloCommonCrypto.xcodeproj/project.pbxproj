@@ -21,6 +21,7 @@
 		C61B6B781821C98400A58B85 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C61B6B5A1821C98400A58B85 /* UIKit.framework */; };
 		C61B6B801821C98400A58B85 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C61B6B7E1821C98400A58B85 /* InfoPlist.strings */; };
 		C61B6B821821C98400A58B85 /* HelloCommonCryptoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C61B6B811821C98400A58B85 /* HelloCommonCryptoTests.m */; };
+		C61B6B8F1821D32900A58B85 /* NSData_NSDataAES256.m in Sources */ = {isa = PBXBuildFile; fileRef = C61B6B8D1821CC1400A58B85 /* NSData_NSDataAES256.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		C61B6B7D1821C98400A58B85 /* HelloCommonCryptoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloCommonCryptoTests-Info.plist"; sourceTree = "<group>"; };
 		C61B6B7F1821C98400A58B85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C61B6B811821C98400A58B85 /* HelloCommonCryptoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloCommonCryptoTests.m; sourceTree = "<group>"; };
+		C61B6B8B1821CBB900A58B85 /* NSData_NSDataAES256.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSData_NSDataAES256.h; sourceTree = "<group>"; };
+		C61B6B8D1821CC1400A58B85 /* NSData_NSDataAES256.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSData_NSDataAES256.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		C61B6B5C1821C98400A58B85 /* HelloCommonCrypto */ = {
 			isa = PBXGroup;
 			children = (
+				C61B6B8B1821CBB900A58B85 /* NSData_NSDataAES256.h */,
+				C61B6B8D1821CC1400A58B85 /* NSData_NSDataAES256.m */,
 				C61B6B651821C98400A58B85 /* com_example_HelloCommonCryptoAppDelegate.h */,
 				C61B6B661821C98400A58B85 /* com_example_HelloCommonCryptoAppDelegate.m */,
 				C61B6B681821C98400A58B85 /* Main.storyboard */,
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C61B6B8F1821D32900A58B85 /* NSData_NSDataAES256.m in Sources */,
 				C61B6B671821C98400A58B85 /* com_example_HelloCommonCryptoAppDelegate.m in Sources */,
 				C61B6B6D1821C98400A58B85 /* com_example_HelloCommonCryptoViewController.m in Sources */,
 				C61B6B631821C98400A58B85 /* main.m in Sources */,
